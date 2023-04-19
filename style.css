@@ -1,0 +1,51 @@
+body
+{
+    margin: 0px;
+    background-color: black;
+}
+img
+{
+   width:200px;
+   height: 80px;
+}
+.all
+{
+    display: flex;
+}
+.all a
+{
+    color:white;
+}
+.mylinks a
+{
+    text-decoration: none;
+    margin:15px;
+    font-size: 15px;
+}
+.mylinks
+{
+    margin-top: 25px;
+}
+#myimage
+{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+#myimage:hover
+{
+    transform: scale(1.2);
+    transition: transform 1s;
+}
+.allimages
+{
+    display: flex;
+    overflow-x: scroll;
+    padding-top: 30px;
+}
+
+.allimages
+{
+    scrollbar-width: none;
+    
+}
